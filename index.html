@@ -1,200 +1,178 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Дизайн-студия:"Нёрдс"</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500,700&amp;subset=latin,cyrillic" >
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style-mini.css">
-  </head>
-  <body>
-    <header class="main-header">
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Test</title>
+	<link   rel="stylesheet" href="css/app.min.css">
+	<script src="js/app.min.js" defer></script>
+</head>
+
+<body>
+	<header class="header">
+		<nav class="header__navbar navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <div class="header-top clearfix">
-          <div class="main-logo">
-            <a class="logo-link">
-              <img src="img/logo-index-header.png" width="139" height="56" alt="Нёрдс">
-            </a>
-          </div>
-          <nav class="main-navigator">
-            <ul class="main-navigator-list">
-              <li class="main-nav-list-item">
-                <a class="main-nav-list-link main-nav-active">СТУДИЯ</a>
-              </li>
-              <li class="main-nav-list-item">
-                <a class="main-nav-list-link" href="#">КЛИЕНТЫ</a>
-              </li>
-              <li class="main-nav-list-item">
-                <a class="main-nav-list-link" href="catalog.html">МАГАЗИН</a>
-              </li>
-              <li class="main-nav-list-item">
-                <a class="main-nav-list-link" href="#">КОНТАКТЫ</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="user-block">
-            <div class="cart">
-              <a class="cart-link icon-basket" href="#">КОРЗИНА
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="header-slider">
-          <input id="slider-control-btn-1" class="header-slider-toggle" type="radio" name="toggle" checked>
-          <input id="slider-control-btn-2" class="header-slider-toggle" type="radio" name="toggle">
-          <input id="slider-control-btn-3" class="header-slider-toggle" type="radio" name="toggle">
-          <div class="header-slider-controls">
-            <label class="header-slider-control" for="slider-control-btn-1"></label>
-            <label class="header-slider-control" for="slider-control-btn-2"></label>
-            <label class="header-slider-control" for="slider-control-btn-3"></label>
-          </div>
-          <div class="header-slides">
-            <div class="header-slide">
-              <div class="header-slide-content">
-                <h2 class="header-slide-title">Долго, дорого,<br>скрупулезно.</h2>
-                <p class="header-slider-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-                <a class="btn btn-red slider-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
-              </div>
-            </div>
-            <div class="header-slide">
-              <div class="header-slide-content">
-                <h2 class="header-slide-title">Любите ли вы математику,<br>как любим ее мы?</h2>
-                <p class="header-slider-text">Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать</p>
-                <a class="btn btn-red slider-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
-              </div>
-            </div>
-            <div class="header-slide">
-              <div class="header-slide-content">
-                <h2 class="header-slide-title">Только наркотики,<br>только хардкор!</h2>
-                <p class="header-slider-text">Все дизайнерские решения в нашей компании принимаются<br> только под воздействием качественных галлюциногенов</p>
-                <a class="btn btn-red slider-btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
-              </div>
-            </div>
-          </div>          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-    <main class="content">
+    </nav>
+	</header>
+
+	<main class="main">
+    <section class="preview d-flex justify-content-center align-items-center">
       <div class="container">
-        <div class="features clearfix">
-          <div class="features-item">
-            <a class="features-item-img" href="#">
-              <img src="img/index-features-webs.jpg" width="240" height="124"  alt="Веб-сайты">
-            </a>
-            <h3 class="features-item-title">
-              <a class="features-item-link" href="#">ВЕБ-САЙТЫ</a>
-            </h3>
-            <p class="features-item-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a class="btn btn-red" href="#">ЗАКАЗАТЬ</a>
-          </div>
-          <div class="features-item">
-            <a class="features-item-img" href="#">
-            <img src="img/index-features-apps.jpg" width="240" height="124" alt="Приложения"></a>
-            <h3 class="features-item-title">
-              <a class="features-item-link" href="#"> ПРИЛОЖЕНИЯ</a>
-            </h3>
-            <p class="features-item-text">Покорите топ-10 приложений в AppStrore и Google Play</p>
-            <a class="btn btn-green" href="#">ЗАКАЗАТЬ</a>
-          </div>
-          <div class="features-item">
-            <a class="features-item-img" href="#">
-              <img src="img/index-features-present.jpg" width="240" height="124" alt="Презентации"></a>
-            <h3 class="features-item-title">
-              <a class="features-item-link" href="#">ПРЕЗЕНТАЦИИ</a>
-            </h3>
-            <p class="features-item-text">Вы даже не подозреваете, насколько вы изумительны!</p>
-            <a class="btn btn-yellow" href="#">ЗАКАЗАТЬ</a>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="preview__title display-1">Hanback Electronics</h1>
+            <p class="preview__subtitle h1">IT Education Platform Provider</p>
           </div>
         </div>
-        <div class="seo-block clearfix">
-          <div class="column-left">
-            <h1 class="column-left-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
-            <p class="column-left-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива.Работаем не покладая рук, как роботы.</p>
-            <h4>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h4>
-            <ul class="column-left-list">
-              <li class="column-left-item">Веб-сайтов любой сложности</li>
-              <li class="column-left-item">Мобильных приложений для iOS и Android</li>
-              <li class="column-left-item">Слайдшоу и видео для корпоративных презентаций</li>
-            </ul>
+      </div>
+    </section>
+    <section class="what-is-new">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="what-is-new__title">Что нового?</h1>
+            <br>
+            <hr>
+            <br>
+            <p class="what-is-new__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam asperiores ducimus eum eveniet fugit hic reprehenderit sunt voluptatibus. Illo ipsum minima necessitatibus nisi placeat quod vitae voluptas, voluptatum.</p>
+            <br>
+            <hr>
+            <br>
           </div>
-          <div class="column-right">
-            <div class="index-logo-seo">
-              <img src="img/index-logo-seo.png" width="240" height="120" alt="Нёрдс">
+          <div class="col-md-4 text-center">
+            <img src="img/1.jpg" alt="">
+            <span class="h3">Title</span>
+            <hr>
+            <br>
+            <a href="#" class="btn btn-outline-primary">See more</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="img/2.jpg" alt="">
+            <span class="h3">Title</span>
+            <hr>
+            <br>
+            <a href="#" class="btn btn-outline-primary">See more</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="img/3.jpg" alt="">
+            <span class="h3">Title</span>
+            <hr>
+            <br>
+            <a href="#" class="btn btn-outline-primary">See more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Для чего это?</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam architecto at consequatur cumque dignissimos doloribus earum ex ipsa mollitia nam non odio, placeat repellat reprehenderit sint suscipit tempore vel.</p>
             </div>
-            <h4 class="column-right-title">КАК МЫ РАБОТАЕМ:</h4>
-            <ul class="column-right-list">
-              <li class="column-right-item">С самоотдачей 146%</li>
-              <li class="column-right-item">Соблюдая сроки на 100%</li>
-              <li class="column-right-item">По предоплате 50%</li>
-            </ul>
+            <div class="col-md-6">
+              <img src="img/4.jpg" alt="" class="img-fluid">
+            </div>
           </div>
         </div>
-        <div class="partners clearfix">
-          <div class="partners-item">
-            <a class="partners-logo" href="#">
-              <img src="img/glukhanko.png" width="209" height="86" alt="Glukhanko">
-            </a>
-            <a class="partners-logo" href="#">
-              <img src="img/htmlacademy.png" width="209" height="86" alt="htmlacademy">
-            </a>
-            <a class="partners-logo" href="#">
-              <img src="img/barbershop.png" width="209" height="86" alt="Barbershop Borodinski">
-            </a>
+      </section>
+      <section class="our-videos">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b-y7IHZo7m0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1>Наши видео</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ducimus eveniet incidunt iste iusto necessitatibus nihil nobis odit perspiciatis praesentium quae, quasi quia sequi, sit ullam ut vel veritatis voluptas.</p>
+              <a href="#" class="btn btn-success">Смотреть другие видео</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>Контакты</h1>
+              <hr>
+              <br><br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur facilis nemo voluptatum? Accusantium alias aperiam debitis incidunt iste, molestiae nobis optio reiciendis unde veritatis! At eveniet ipsa porro sed?</p>
+            </div>
+            <div class="contacts__info col-md-6">
+              <div class="contacts__info-item">
+                <i class="far fa-clock"></i>
+                <h2>Рабочие часы</h2>
+                <p>Пн - Пт 10:00 - 19:00</p>
+              </div>
+              <div class="contacts__info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <h2>Мы тут</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>Телефон: <a href="tel:+79042157948">+7(904) 215 79 48</a></p>
+              </div>
+            </div>
+            <div class="contacts__map col-md-6">
+              <script src="https://api-maps.yandex.ru/2.1/?apikey=<437d01a4-7ae7-4c20-ab31-9a66845b5bd7>&lang=ru_RU" type="text/javascript">
+              </script>
+              <script type="text/javascript">
+                // Функция ymaps.ready() будет вызвана, когда
+                // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+                ymaps.ready(init);
+                function init(){
+                  // Создание карты.
+                  var myMap = new ymaps.Map("map", {
+                    // Координаты центра карты.
+                    // Порядок по умолчанию: «широта, долгота».
+                    // Чтобы не определять координаты центра карты вручную,
+                    // воспользуйтесь инструментом Определение координат.
+                    center: [55.76, 37.64],
+                    // Уровень масштабирования. Допустимые значения:
+                    // от 0 (весь мир) до 19.
+                    zoom: 7
+                  });
+                }
+              </script>
+              <div id="map" style="width: 600px; height: 400px"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+	</main>
+
+	<footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="img/logo.png" alt="" class="img-fluid">
+            <h3>Интерактивные технологии для бизнеса</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Телефон: <a href="tel:+79042157948">+7(904) 215 79 48</a></p>
           </div>
         </div>
       </div>
-    </main>
-    <footer class="main-footer">
-      <div class="location">
-        <div class="container">  
-          <div class="footer-contacts">
-            <p>
-              <b class="footer-contacts-subtitle">NЁRDS DESIGN STUDIO</b>
-              <span class="footer-contacts-address">
-              191186, Санкт-Петербург,<br>
-              ул. Б. Конюшенная, д. 19/8<br><br>
-              тел. +7 (812) 275-75-75</span>
-            </p>
-            <a class="btn btn-red contacts-btn" href="form.html">НАПИШИТЕ НАМ</a>
-          </div>
-        </div>
-      </div>
-      <div class="container clearfix">
-        <div class="footer-social">
-          <a class="social-btn" href="https://vk.com/rogue_87">
-            <i class="icon-vk"></i>
-          </a>
-          <a class="social-btn" href="#">
-            <i class="icon-facebook"></i>
-          </a>
-          <a class="social-btn" href="#">
-            <i class="icon-instagramm"></i>
-          </a>
-        </div>
-        <div class="footer-promo">
-          <p class="footer-promo-subtitle">Давайте дружить, это выгодно!</p>
-          <p class="footer-promo-text">Скидка 10% для друзей из социальных сетей.</p>
-        </div>
-      </div>
-    </footer>
-    <div class="footer-contacts-popup">
-      <form class="form" action="#" method="post">
-        <button type="button" class="popup-close"></button>
-        <div class="form-fieldset form-fieldset-name">
-          <label for="form-user-name">Ваше имя:</label>
-          <input id="form-user-name" class="form-user-name-value" type="text" name="user-name" placeholder="ПРЕДСТАВЬТЕСЬ,ПОЖАЛУЙСТА">
-        </div>
-        <div class="form-fieldset form-fieldset-email">
-          <label for="form-user-mail">Ваш e-mail:</label>
-          <input id="form-user-mail" class="form-user-mail-value" type="email" name="user-mail" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА">
-        </div>
-        <div class="form-fieldset form-fieldset-letter">
-          <label for="form-user-letter">Текст письма:</label>
-          <textarea id="form-user-letter" class="form-user-letter-value" name="user-letter" placeholder="В СВОБОДНОЙ ФОРМЕ"></textarea>
-        </div>
-        <input class="btn btn-red form-fieldset-btn" type="submit" value="ОТПРАВИТЬ">
-      </form>
-    </div>
-  <script src="js/js-mini.js"></script>
-  </body>
+	</footer>
+</body>
 </html>
