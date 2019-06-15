@@ -10,28 +10,28 @@
 </head>
 
 <body>
-	<header class="header">
-		<nav class="header__navbar navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="img-fluid"></a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-	</header>
+  <header class="header">
+      <nav class="header__navbar navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbarnd" href="#"><img src="img/logo.png" alt="" class="img-fluid"></a>
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#news">News</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+  </header>
 
-	<main class="main">
+  <main class="main">
     <section class="preview d-flex justify-content-center align-items-center">
       <div class="container">
         <div class="row">
@@ -45,49 +45,40 @@
     <section class="what-is-new">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1 class="what-is-new__title">Что нового?</h1>
-            <br>
+          <div class="col-md-12 text-center ">
+            <h1 id="news" class="what-is-new__title pb-3">Что нового?</h1>
             <hr>
-            <br>
-            <p class="what-is-new__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam asperiores ducimus eum eveniet fugit hic reprehenderit sunt voluptatibus. Illo ipsum minima necessitatibus nisi placeat quod vitae voluptas, voluptatum.</p>
-            <br>
+            <p class="what-is-new__text pt-4 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam asperiores ducimus eum eveniet fugit hic reprehenderit sunt voluptatibus. Illo ipsum minima necessitatibus nisi placeat quod vitae voluptas, voluptatum.</p>
             <hr>
-            <br>
           </div>
-          <div class="col-md-4 text-center">
-            <img src="img/1.jpg" alt="">
-            <span class="h3">Title</span>
-            <hr>
-            <br>
-            <a href="#" class="btn btn-outline-primary">See more</a>
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="img/2.jpg" alt="">
-            <span class="h3">Title</span>
-            <hr>
-            <br>
-            <a href="#" class="btn btn-outline-primary">See more</a>
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="img/3.jpg" alt="">
-            <span class="h3">Title</span>
-            <hr>
-            <br>
-            <a href="#" class="btn btn-outline-primary">See more</a>
+          <div class="row pt-4">
+            <div class="col-md-4 text-center">
+              <img src="img/1.jpg" alt="">
+              <h3 class="h3">Title</h3>
+              <hr>
+              <a href="#" class="btn btn-outline-primary">See more</a>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="img/2.jpg" alt="">
+              <h3 class="h3">Title</h3>
+              <hr>
+              <a href="#" class="btn btn-outline-primary">See more</a>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="img/3.jpg" alt="">
+              <h3 class="h3">Title</h3>
+              <hr>
+              <a href="#" class="btn btn-outline-primary">See more</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-      <section class="features">
+    <section class="features">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>Для чего это?</h1>
+              <h1 class="text-center">Для кого это?</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam architecto at consequatur cumque dignissimos doloribus earum ex ipsa mollitia nam non odio, placeat repellat reprehenderit sint suscipit tempore vel.</p>
             </div>
             <div class="col-md-6">
@@ -96,7 +87,7 @@
           </div>
         </div>
       </section>
-      <section class="our-videos">
+    <section class="our-videos">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -105,23 +96,22 @@
               </div>
             </div>
             <div class="col-md-6">
-              <h1>Наши видео</h1>
+              <h1 class="text-center">Наши видео</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ducimus eveniet incidunt iste iusto necessitatibus nihil nobis odit perspiciatis praesentium quae, quasi quia sequi, sit ullam ut vel veritatis voluptas.</p>
-              <a href="#" class="btn btn-success">Смотреть другие видео</a>
+              <a href="#" class="btn btn-success ">Смотреть другие видео</a>
             </div>
           </div>
         </div>
       </section>
-      <section class="contacts">
+    <section class="contacts">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h1>Контакты</h1>
+              <h1 class="mb-5">Контакты</h1>
               <hr>
-              <br><br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur facilis nemo voluptatum? Accusantium alias aperiam debitis incidunt iste, molestiae nobis optio reiciendis unde veritatis! At eveniet ipsa porro sed?</p>
+              <p class="pt-4 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur facilis nemo voluptatum? Accusantium alias aperiam debitis incidunt iste, molestiae nobis optio reiciendis unde veritatis! At eveniet ipsa porro sed?</p>
             </div>
-            <div class="contacts__info col-md-6">
+            <div class="contacts__info col-md-6 pb-4">
               <div class="contacts__info-item">
                 <i class="far fa-clock"></i>
                 <h2>Рабочие часы</h2>
@@ -160,9 +150,208 @@
           </div>
         </div>
       </section>
-	</main>
+    <section class="products">
+        <div class="container">
+          <div class="row pt-3">
+            <div class="col-md-3">
+              <div class="sidebar">
+                <ul class="list-group list-group-flush border border-danger">
+                  <li class="list-group-item list-group-item-action active">Cras justo odio</li>
+                  <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
+                  <li class="list-group-item list-group-item-action">Morbi leo risus</li>
+                  <li class="list-group-item list-group-item-action">Porta ac consectetur ac</li>
+                  <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="products__content content">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1 class="mb-4 text-primary">Products</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 products__item content__item mb-4">
+                    <div class="card pl-2 pr-2">
+                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="product-card">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="product-card__title text-primary">AI Smart Mobile</h1>
+          </div>
+          <div class="col-12 text-center mb-5">
+          <img src="img/product-card.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-12 mb-5">
+            <ul class="product-card__list">
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              <li>Aperiam, consectetur eius in iure minima nostrum quo.</li>
+            </ul>
+          </div>
+          <div class="col-12 pl-0 mb-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi autem beatae dolorem eius
+              eveniet explicabo minus nulla odit officia praesentium quas, recusandae repudiandae tempora ullam unde,
+              veritatis. Repellendus?</p>
+          </div>
+          <div class="col-12 pl-0 mb-5">
+            <div class="col-12 pl-0">
+              <h2 class="text-secondary">Product Features</h2>
+            </div>
+            <div class="col-12">
+              <ul class="product-card__list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Animi assumenda culpa eius mollitia omnis quis tempora.</li>
+                <li>A consectetur est facilis itaque, molestiae unde vitae?</li>
+                <li>Doloremque doloribus molestias numquam odit possimus rem sequi.</li>
+                <li>Architecto at eos hic necessitatibus odio quas sed.</li>
+                <li>Eaque eum illum nam officia suscipit temporibus voluptatem!</li>
+                <li>Amet dignissimos eveniet fuga, ipsum necessitatibus nulla tempora?</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 pl-0 mb-5">
+            <div class="col-12 pl-0">
+              <h2 class="text-secondary">Training Contents</h2>
+            </div>
+            <div class="col-12">
+              <ul class="product-card__list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Animi assumenda culpa eius mollitia omnis quis tempora.</li>
+                <li>A consectetur est facilis itaque, molestiae unde vitae?</li>
+                <li>Doloremque doloribus molestias numquam odit possimus rem sequi.</li>
+                <li>Architecto at eos hic necessitatibus odio quas sed.</li>
+                <li>Eaque eum illum nam officia suscipit temporibus voluptatem!</li>
+                <li>Amet dignissimos eveniet fuga, ipsum necessitatibus nulla tempora?</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 pl-0 mb-5">
+            <div class="col-12 pl-0">
+              <h2 class="text-secondary">Hardware Specifications</h2>
+            </div>
+            <div class="col-12">
+              <ul class="product-card__list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 pl-0 mb-5">
+            <div class="col-12 pl-0">
+              <h2 class="text-secondary">Software Specifications</h2>
+            </div>
+            <div class="col-12 text-center pt-3">
+              <img src="img/6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-12 pl-0 mb-5">
+            <div class="col-12 pl-0">
+              <h2 class="text-secondary">Block Diagram</h2>
+            </div>
+            <div class="col-12 text-center pt-3">
+              <img src="img/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-	<footer class="footer bg-dark text-white">
+  <footer class="footer bg-dark text-white">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -173,6 +362,6 @@
           </div>
         </div>
       </div>
-	</footer>
+  </footer>
 </body>
 </html>
