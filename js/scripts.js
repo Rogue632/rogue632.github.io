@@ -15,3 +15,24 @@ contactBtn.addEventListener("click", function(event){
     contactList.classList.toggle("visually-hidden");
 })
 
+$(window).ready(function () {
+    if($(window).width() >= 960){
+        $('.page-menu').removeClass('visually-hidden');
+        $('.contacts').removeClass('visually-hidden');
+        $('.contacts-btn').addClass('visually-hidden');
+        $('.burger-btn').addClass('visually-hidden');
+    }
+})
+// jQuery(document).ready(function(){
+//     function classFunction(){
+//       if(jQuery('body').width()>=960){
+//         jQuery('.page-menu').removeClass('visually-hidden');
+//         jQuery('.contacts').removeClass('visually-hidden');
+//         jQuery('.contacts-btn').addClass('visually-hidden');
+//         jQuery('.burger-btn').addClass('visually-hidden');
+//       }
+//     }
+    
+//     classFunction();
+//     jQuery(window).resize(classFunction);
+//    })
