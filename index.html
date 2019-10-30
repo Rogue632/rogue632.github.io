@@ -1,382 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>Интерактивные технологии для бизнеса</title>
-	<link   rel="stylesheet" href="css/app.min.css">
-	<script src="js/app.min.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Плитка</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
-
-<body>
-  <header class="header">
-      <nav class="header__navbar navbar navbar-expand-lg navbar-dark fixed-top">
-          <div class="container">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbarnd" href="#"><img src="img/logo.png" alt="" class="img-fluid"></a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#news">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Products</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-      </nav>
-  </header>
-
-  <main class="main">
-    <section class="preview d-flex justify-content-center align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1 class="preview__title display-1">Hanback Electronics</h1>
-            <p class="preview__subtitle h1">IT Education Platform Provider</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="what-is-new">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center ">
-            <h1 id="news" class="what-is-new__title pb-3">Что нового?</h1>
-            <hr>
-            <p class="what-is-new__text pt-4 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam asperiores ducimus eum eveniet fugit hic reprehenderit sunt voluptatibus. Illo ipsum minima necessitatibus nisi placeat quod vitae voluptas, voluptatum.</p>
-            <hr>
-          </div>
-          <div class="row pt-4 mb-3">
-            <div class="col-md-4 text-center">
-              <img src="img/1.jpg" alt="">
-              <h3 class="h3">Title</h3>
-              <a href="#" class="btn btn-outline-primary">See more</a>
-              <hr>
-            </div>
-            <div class="col-md-4 text-center">
-              <img src="img/2.jpg" alt="">
-              <h3 class="h3">Title</h3>
-              <a href="#" class="btn btn-outline-primary">See more</a>
-              <hr>
-            </div>
-            <div class="col-md-4 text-center">
-              <img src="img/3.jpg" alt="">
-              <h3 class="h3">Title</h3>
-              <a href="#" class="btn btn-outline-primary">See more</a>
-              <hr>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="features">
+<body class="page">
+    <header class="page-header">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="text-center">Для кого это?</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam architecto at consequatur cumque dignissimos doloribus earum ex ipsa mollitia nam non odio, placeat repellat reprehenderit sint suscipit tempore vel.</p>
-            </div>
-            <div class="col-md-6">
-              <img src="img/4.jpg" alt="" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </section>
-    <section class="our-videos">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b-y7IHZo7m0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h1 class="text-center">Наши видео</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ducimus eveniet incidunt iste iusto necessitatibus nihil nobis odit perspiciatis praesentium quae, quasi quia sequi, sit ullam ut vel veritatis voluptas.</p>
-              <a href="#" class="btn btn-success ">Смотреть другие видео</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    <section class="contacts">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h1 class="mb-5">Контакты</h1>
-              <hr>
-              <p class="pt-4 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur facilis nemo voluptatum? Accusantium alias aperiam debitis incidunt iste, molestiae nobis optio reiciendis unde veritatis! At eveniet ipsa porro sed?</p>
-            </div>
-            <div class="contacts__info col-md-6 pb-4">
-              <div class="contacts__info-item">
-                <i class="far fa-clock"></i>
-                <h2>Рабочие часы</h2>
-                <p>Пн - Пт 10:00 - 19:00</p>
-              </div>
-              <div class="contacts__info-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <h2>Мы тут</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p>Телефон: <a href="tel:+79042157948">+7(904) 215 79 48</a></p>
-              </div>
-            </div>
-            <div class="contacts__map col-md-6">
-              <script src="https://api-maps.yandex.ru/2.1/?apikey=<437d01a4-7ae7-4c20-ab31-9a66845b5bd7>&lang=ru_RU" type="text/javascript">
-              </script>
-              <script type="text/javascript">
-                // Функция ymaps.ready() будет вызвана, когда
-                // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
-                ymaps.ready(init);
-                function init(){
-                  // Создание карты.
-                  var myMap = new ymaps.Map("map", {
-                    // Координаты центра карты.
-                    // Порядок по умолчанию: «широта, долгота».
-                    // Чтобы не определять координаты центра карты вручную,
-                    // воспользуйтесь инструментом Определение координат.
-                    center: [55.76, 37.64],
-                    // Уровень масштабирования. Допустимые значения:
-                    // от 0 (весь мир) до 19.
-                    zoom: 7
-                  });
-                }
-              </script>
-              <div id="map" style="width: 600px; height: 400px"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    <section class="products">
-        <div class="container">
-          <div class="row pt-3">
-            <div class="col-md-3">
-              <div class="sidebar">
-                <ul class="list-group list-group-flush border border-danger">
-                  <li class="list-group-item list-group-item-action active">Cras justo odio</li>
-                  <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
-                  <li class="list-group-item list-group-item-action">Morbi leo risus</li>
-                  <li class="list-group-item list-group-item-action">Porta ac consectetur ac</li>
-                  <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
+            <nav class="page-navigator">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <img class="logo__img" src="img/logo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="contacts-btn">
+                    <?xml version="1.0" ?>
+                    <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                    <svg class="contacts-btn__img contacts__btn__img--blue" height="80px" id="Capa_1" style="enable-background:new 0 0 80 80;" version="1.1" viewBox="0 0 80 80" width="80px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M46.143,46.143c-7.917,7.917-17.085,15.485-20.708,11.861c-5.189-5.188-8.388-9.707-19.825-0.515   c-11.438,9.196-2.653,15.323,2.373,20.351c5.8,5.799,27.421,0.305,48.792-21.063C78.143,35.404,83.641,13.783,77.837,7.981   C72.81,2.954,66.683-5.828,57.491,5.611c-9.194,11.434-4.677,14.634,0.513,19.823C61.626,29.058,54.06,38.225,46.143,46.143z"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/>
+                    </svg>
+                </div>
+                <div class="burger-btn">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                    <svg class="burger-btn__img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="124px" height="124px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;"  xml:space="preserve"><g>
+                        <path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
+                        <path d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z"/>
+                        <path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                    </svg>
+                </div>
+                <ul class="page-menu visually-hidden">
+                    <li class="page-menu__item">
+                        <a href="#" class="page-menu__link">Каталог</a>
+                    </li>
+                    <li class="page-menu__item">
+                        <a href="#" class="page-menu__link">Плинтус</a>
+                    </li>
+                    <li class="page-menu__item">
+                        <a href="#" class="page-menu__link">Дверной декор</a>
+                    </li>
+                    <li class="page-menu__item">
+                        <a href="#" class="page-menu__link">Молдинги</a>
+                    </li>
+                    <li class="page-menu__item">
+                        <a href="#" class="page-menu__link">Как купить</a>
+                    </li>
                 </ul>
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="products__content content">
-                <div class="row">
-                  <div class="col-md-12">
-                    <h1 class="mb-4 text-primary">Products</h1>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 products__item content__item mb-4">
-                    <div class="card pl-2 pr-2">
-                      <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                <ul class="contacts visually-hidden">
+                    <li class="contacts__item">
+                        <a href="tel:XXXXXXXXXXX" class="contacts__link" rel="nofollow">
+                            <i class="contacts__icon">
+                                <?xml version="1.0" ?>
+                                <svg class="contacts__img" fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </i>
+                            <span class="contacts__item-text contacts__item-text--bold">8-921-425-39-22</span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__link">
+                            <i class="contacts__icon">
+                                <svg class="contacts__img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                    <path class="cls-1" d="M10.994,6.771v3.257a0.521,0.521,0,0,0,.426.351c0.3,0,.978-1.8,1.279-2.406a1.931,1.931,0,0,1,.738-0.826A0.61,0.61,0,0,1,13.8,6.992h2.878a0.464,0.464,0,0,1,.3.727,29.378,29.378,0,0,1-2.255,2.736,1.315,1.315,0,0,0-.238.55,1.2,1.2,0,0,0,.313.627c0.2,0.226,1.816,2,1.966,2.155a1.194,1.194,0,0,1,.276.576,0.765,0.765,0,0,1-.8.614c-0.627,0-2.167,0-2.342,0a2.788,2.788,0,0,1-.952-0.565c-0.226-.2-1.153-1.152-1.278-1.277a2.457,2.457,0,0,0,.024-0.363,0.826,0.826,0,0,0-.7.8,4.083,4.083,0,0,1-.238,1.139,1.024,1.024,0,0,1-.737.275A5,5,0,0,1,7.1,14.262,14.339,14.339,0,0,1,2.9,9.251C2.127,7.708,1.953,7.468,2,7.293s0.05-.3.226-0.3,2.39,0,2.606,0a0.851,0.851,0,0,1,.351.326c0.075,0.1.647,1.056,0.822,1.356S7.046,10.38,7.513,10.38a0.6,0.6,0,0,0,.474-0.7c0-.4,0-1.979,0-2.18a1.94,1.94,0,0,0-.978-1A1.261,1.261,0,0,1,7.937,6c0.6-.025,2.1-0.025,2.43.024A0.779,0.779,0,0,1,10.994,6.771Z"></path>
+                                </svg>
+                            </i>
+                            <span class="contacts__item-text">Вконтакте</span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__link">
+                            <i class="contacts__icon">
+                                <svg class="contacts__img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                    <path class="cls-1" d="M13,17H7a4,4,0,0,1-4-4V7A4,4,0,0,1,7,3h6a4,4,0,0,1,4,4v6A4,4,0,0,1,13,17ZM15,7a2,2,0,0,0-2-2H7A2,2,0,0,0,5,7v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2V7Zm-5,6a3,3,0,1,1,3-3A3,3,0,0,1,10,13Zm1-4H9v2h2V9Z"></path>
+                                </svg>
+                            </i>
+                            <span class="contacts__item-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#" class="contacts__link">
+                            <i class="contacts__icon">
+                                <svg class="contacts__img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                    <path class="cls-1" d="M14.78,15.369a0.727,0.727,0,0,1-1.205.565l-3.332-2.455L8.636,15.027a0.837,0.837,0,0,1-.669.327L8.2,11.962h0l6.174-5.579c0.268-.238-0.059-0.372-0.417-0.134L6.33,11.054,3.042,10.028C2.328,9.8,2.313,9.314,3.191,8.972L16.044,4.018c0.6-.223,1.116.134,0.922,1.041Z"></path>
+                                </svg>
+                            </i>
+                            <span class="contacts__item-text">Telegram</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </section>
-    <section class="product-card">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="product-card__title text-primary">AI Smart Mobile</h1>
-          </div>
-          <div class="col-12 text-center mb-5">
-          <img src="img/product-card.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-12 mb-5">
-            <ul class="product-card__list text-info"> text-info
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-              <li>Aperiam, consectetur eius in iure minima nostrum quo.</li>
-            </ul>
-          </div>
-          <div class="col-12 pl-0 mb-5 text-info">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus animi autem beatae dolorem eius
-              eveniet explicabo minus nulla odit officia praesentium quas, recusandae repudiandae tempora ullam unde,
-              veritatis. Repellendus?</p>
-          </div>
-          <div class="col-12 pl-0 mb-5">
-            <div class="col-12 pl-0">
-              <h2 class="text-secondary mb-5">Product Features</h2>
-            </div>
-            <div class="col-12 text-info">
-              <ul class="product-card__list">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Animi assumenda culpa eius mollitia omnis quis tempora.</li>
-                <li>A consectetur est facilis itaque, molestiae unde vitae?</li>
-                <li>Doloremque doloribus molestias numquam odit possimus rem sequi.</li>
-                <li>Architecto at eos hic necessitatibus odio quas sed.</li>
-                <li>Eaque eum illum nam officia suscipit temporibus voluptatem!</li>
-                <li>Amet dignissimos eveniet fuga, ipsum necessitatibus nulla tempora?</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 pl-0 mb-5">
-            <div class="col-12 pl-0">
-              <h2 class="text-secondary mb-5">Training Contents</h2>
-            </div>
-            <div class="col-12">
-              <ul class="product-card__list text-info">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Animi assumenda culpa eius mollitia omnis quis tempora.</li>
-                <li>A consectetur est facilis itaque, molestiae unde vitae?</li>
-                <li>Doloremque doloribus molestias numquam odit possimus rem sequi.</li>
-                <li>Architecto at eos hic necessitatibus odio quas sed.</li>
-                <li>Eaque eum illum nam officia suscipit temporibus voluptatem!</li>
-                <li>Amet dignissimos eveniet fuga, ipsum necessitatibus nulla tempora?</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 pl-0 mb-5">
-            <div class="col-12 pl-0">
-              <h2 class="text-secondary mb-5">Hardware Specifications</h2>
-            </div>
-            <div class="col-12">
-              <ul class="product-card__list text-info">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 pl-0 mb-5">
-            <div class="col-12 pl-0">
-              <h2 class="text-secondary mb-5">Software Specifications</h2>
-            </div>
-            <div class="col-12 text-center pt-3">
-              <img src="img/6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          <div class="col-12 pl-0 mb-5">
-            <div class="col-12 pl-0">
-              <h2 class="text-secondary mb-5">Block Diagram</h2>
-            </div>
-            <div class="col-12 text-center pt-3">
-              <img src="img/7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="videos">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="text-primary">Video</h1>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer bg-dark text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img src="img/logo.png" alt="" class="img-fluid">
-            <h3>Интерактивные технологии для бизнеса</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Телефон: <a href="tel:+79042157948">+7(904) 215 79 48</a></p>
-          </div>
-        </div>
-      </div>
-  </footer>
+    </header>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

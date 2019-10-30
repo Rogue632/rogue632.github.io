@@ -1,0 +1,163 @@
+/* Layout */
+.page {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+/* End Layout */
+/* Page-header */
+.page-header {
+}
+
+.page-navigator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* Logo */
+.logo {
+    height: 10vh;
+}
+
+.logo__link {
+    display: block;
+}
+
+.logo__img {
+    height: 100%;
+}
+    /* END Logo */
+    /* Burger */
+.burger-btn {
+    padding-right: 20px;
+}
+
+.burger-btn__img {
+    width: 40px;
+    height: 40px;
+}
+    /* END Burger */
+    /* Page-menu */
+.page-menu {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.page-menu__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.page-menu__link {
+    color: #000;
+    text-decoration: none;
+}
+    /* END Page-menu */
+    /* Contacts */
+.contacts-btn {
+
+}
+
+.contacts-btn__img {
+    width: 40px;
+    height: 40px;
+}
+
+.contacts__btn__img--blue {
+    fill: blue;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90vh;
+    width: 100vw;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.contacts__item {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contacts__link {
+    color: #000;
+    display: flex;
+    text-decoration: none;
+}
+
+.contacts__icon {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contacts__img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: 20px;
+}
+
+.contacts__item-text {
+
+}
+
+.contacts__item-text--bold {
+    font-weight: 800;
+}
+    /* END Contacts */
+/* END Page-header */
+
+@media (min-width: 620px) {
+    /* Layout */
+    .container {
+        width: 620px;
+        padding: 0 20px;
+    }
+    /* End Layout */
+}
+
+@media (min-width: 960px) {
+    /* Layout */
+    .container {
+        width: 960px;
+        padding: 0 10px;
+    }
+    /* End Layout */
+}
+
+
+
