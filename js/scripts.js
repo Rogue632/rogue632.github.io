@@ -14,3 +14,4 @@ contactBtn.addEventListener("click", function(event){
     menu.classList.add("visually-hidden"); // переключает класс у меню
     contactList.classList.toggle("visually-hidden");
 })
+
