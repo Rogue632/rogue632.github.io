@@ -1,103 +1,258 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Плитка</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        
+    </style>
 </head>
-<body class="page">
-    <header class="page-header">
-        <div class="container">
-            <nav class="page-navigator">
-                <div class="logo">
-                    <a href="#" class="logo__link">
-                        <img class="logo__img" src="img/logo.jpg" alt="">
-                    </a>
-                </div>
-                <div class="contacts-btn">
-                    <?xml version="1.0" ?>
-                    <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-                    <svg class="contacts-btn__img contacts__btn__img--blue" height="80px" id="Capa_1" style="enable-background:new 0 0 80 80;" version="1.1" viewBox="0 0 80 80" width="80px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M46.143,46.143c-7.917,7.917-17.085,15.485-20.708,11.861c-5.189-5.188-8.388-9.707-19.825-0.515   c-11.438,9.196-2.653,15.323,2.373,20.351c5.8,5.799,27.421,0.305,48.792-21.063C78.143,35.404,83.641,13.783,77.837,7.981   C72.81,2.954,66.683-5.828,57.491,5.611c-9.194,11.434-4.677,14.634,0.513,19.823C61.626,29.058,54.06,38.225,46.143,46.143z"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/>
-                    </svg>
-                </div>
-                <div class="burger-btn">
-                    <?xml version="1.0" encoding="iso-8859-1"?>
-                    <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                    <svg class="burger-btn__img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="124px" height="124px" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;"  xml:space="preserve"><g>
-                        <path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
-                        <path d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z"/>
-                        <path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
-                    </svg>
-                </div>
-                <ul class="contacts visually-hidden">
-                    <li class="contacts__item">
-                        <a href="tel:XXXXXXXXXXX" class="contacts__link" rel="nofollow">
-                            <i class="contacts__icon">
-                                <?xml version="1.0" ?>
-                                <svg class="contacts__img" fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                                </svg>
-                            </i>
-                            <span class="contacts__item-text contacts__item-text--bold">8-921-425-39-22</span>
-                        </a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="#" class="contacts__link">
-                            <i class="contacts__icon">
-                                <svg class="contacts__img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                                    <path class="cls-1" d="M10.994,6.771v3.257a0.521,0.521,0,0,0,.426.351c0.3,0,.978-1.8,1.279-2.406a1.931,1.931,0,0,1,.738-0.826A0.61,0.61,0,0,1,13.8,6.992h2.878a0.464,0.464,0,0,1,.3.727,29.378,29.378,0,0,1-2.255,2.736,1.315,1.315,0,0,0-.238.55,1.2,1.2,0,0,0,.313.627c0.2,0.226,1.816,2,1.966,2.155a1.194,1.194,0,0,1,.276.576,0.765,0.765,0,0,1-.8.614c-0.627,0-2.167,0-2.342,0a2.788,2.788,0,0,1-.952-0.565c-0.226-.2-1.153-1.152-1.278-1.277a2.457,2.457,0,0,0,.024-0.363,0.826,0.826,0,0,0-.7.8,4.083,4.083,0,0,1-.238,1.139,1.024,1.024,0,0,1-.737.275A5,5,0,0,1,7.1,14.262,14.339,14.339,0,0,1,2.9,9.251C2.127,7.708,1.953,7.468,2,7.293s0.05-.3.226-0.3,2.39,0,2.606,0a0.851,0.851,0,0,1,.351.326c0.075,0.1.647,1.056,0.822,1.356S7.046,10.38,7.513,10.38a0.6,0.6,0,0,0,.474-0.7c0-.4,0-1.979,0-2.18a1.94,1.94,0,0,0-.978-1A1.261,1.261,0,0,1,7.937,6c0.6-.025,2.1-0.025,2.43.024A0.779,0.779,0,0,1,10.994,6.771Z"></path>
-                                </svg>
-                            </i>
-                            <span class="contacts__item-text">Вконтакте</span>
-                        </a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="#" class="contacts__link">
-                            <i class="contacts__icon">
-                                <svg class="contacts__img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                                    <path class="cls-1" d="M13,17H7a4,4,0,0,1-4-4V7A4,4,0,0,1,7,3h6a4,4,0,0,1,4,4v6A4,4,0,0,1,13,17ZM15,7a2,2,0,0,0-2-2H7A2,2,0,0,0,5,7v6a2,2,0,0,0,2,2h6a2,2,0,0,0,2-2V7Zm-5,6a3,3,0,1,1,3-3A3,3,0,0,1,10,13Zm1-4H9v2h2V9Z"></path>
-                                </svg>
-                            </i>
-                            <span class="contacts__item-text">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="#" class="contacts__link">
-                            <i class="contacts__icon">
-                                <svg class="contacts__img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                                    <path class="cls-1" d="M14.78,15.369a0.727,0.727,0,0,1-1.205.565l-3.332-2.455L8.636,15.027a0.837,0.837,0,0,1-.669.327L8.2,11.962h0l6.174-5.579c0.268-.238-0.059-0.372-0.417-0.134L6.33,11.054,3.042,10.028C2.328,9.8,2.313,9.314,3.191,8.972L16.044,4.018c0.6-.223,1.116.134,0.922,1.041Z"></path>
-                                </svg>
-                            </i>
-                            <span class="contacts__item-text">Telegram</span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="page-menu visually-hidden">
-                    <li class="page-menu__item">
-                        <a href="#" class="page-menu__link">Каталог</a>
-                    </li>
-                    <li class="page-menu__item">
-                        <a href="#" class="page-menu__link">Плинтус</a>
-                    </li>
-                    <li class="page-menu__item">
-                        <a href="#" class="page-menu__link">Дверной декор</a>
-                    </li>
-                    <li class="page-menu__item">
-                        <a href="#" class="page-menu__link">Молдинги</a>
-                    </li>
-                    <li class="page-menu__item">
-                        <a href="#" class="page-menu__link">Как купить</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+<body>
+    <header> 
+        <h1 class="main-title">КАТАЛОГ ТРАФАРЕТОВ</h1>
     </header>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+    <div class="header-border"></div>
+    <main class="price-list">
+        <div class="price-list__items">
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            <div class="price-list__item">
+                <div class="price-list__img"><img src="img/1.png" alt=""></div>
+                <div class="price-list__content">
+                    <h1 class="price-list__title">Малые соты</h1>
+                    <p class="price-list__text">Ячейки 3х2,5 см</p>
+                    <p class="price-list__text">Размер трафарета 64x58 см, толщина 1 мм</p>
+                </div>
+                <i class="price-list__price">2000</i>
+            </div>
+            
+        </div>
+    </main>
 </body>
 </html>
