@@ -1,3 +1,10 @@
+@media print {
+    @page {
+       margin: 1cm;
+   }
+}
+
+
 body {
     margin: 0;
     padding: 0;
