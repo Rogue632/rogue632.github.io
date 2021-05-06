@@ -37,7 +37,8 @@ header {
     /* background: linear-gradient(90deg, rgba(100,99,105,1) 0%, rgba(207,208,209,1) 100%); */
 }
 
-main {
+.price-list {
+    padding: 0 60px;
 }
 
 .price-list__items {
