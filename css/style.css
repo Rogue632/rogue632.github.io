@@ -38,13 +38,13 @@ header {
 }
 
 .price-list {
-    padding: 0 200px;
+    /* padding: 0 200px; */
 }
 
 .price-list__items {
     margin: 0 auto;
     border: 1px solid #dfddde;
-    background: #dfddde;
+    /* background: #dfddde; */
 }
 
 
