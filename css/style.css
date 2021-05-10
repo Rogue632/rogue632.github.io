@@ -32,13 +32,8 @@ header {
     padding: 0;
 }
 
-.header-border {
-    /* height: 5px; */
-    /* background: linear-gradient(90deg, rgba(100,99,105,1) 0%, rgba(207,208,209,1) 100%); */
-}
-
 .price-list {
-    /* padding: 0 200px; */
+    padding: 0 200px;
 }
 
 .price-list__items {
