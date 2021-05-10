@@ -39,7 +39,7 @@ header {
 
 .price-list__items {
     margin: 0 auto;
-    border: 1px solid #dfddde;
+    /* border: 1px solid #dfddde; */
     /* background: #dfddde; */
 }
 
