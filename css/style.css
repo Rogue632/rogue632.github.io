@@ -223,3 +223,9 @@ img {
   }
 }
 
+.main {
+  background: url("/img/background.jpg") center no-repeat;
+  background-size: cover;
+  margin-top: -22px;
+}
+
