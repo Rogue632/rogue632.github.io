@@ -82,6 +82,7 @@ img {
 @media screen and (min-width: 576px) {
   .header__inner {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -125,6 +126,11 @@ img {
     width: 40px;
     margin-right: 5px;
   }
+}
+
+.logo__text {
+  display: inline;
+  vertical-align: middle;
 }
 
 .phone {
