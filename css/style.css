@@ -224,8 +224,14 @@ img {
 }
 
 .main {
-  background: url("/img/background.jpg") center no-repeat;
-  background-size: cover;
   margin-top: -22px;
 }
 
+
+.info {
+  background-image: url("/img/background.jpg");
+  /* background-position: center; */
+  background: url("/img/background.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
