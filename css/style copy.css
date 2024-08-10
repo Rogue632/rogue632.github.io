@@ -1,0 +1,60 @@
+  /* Стили футера */
+  .music-player-footer {
+    background-color: #343a40; /* Темный фон футера */
+    color: #ffffff; /* Белый текст */
+    position: sticky; /* Фиксируем футер внизу страницы */
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dee2e6; /* Легкая граница сверху футера */
+    z-index: 1000; /* Убедиться, что футер находится поверх содержимого */
+  }
+  
+  .player-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .artist-name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .track-name {
+    font-size: 0.875rem;
+    color: #adb5bd;
+  }
+  
+  .player-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .control-btn {
+    background-color: #007bff; /* Цвет кнопок */
+    border: none;
+    margin: 0 5px;
+  }
+  
+  .play-btn {
+    background-color: #28a745; /* Цвет кнопки Play */
+    border: none;
+    margin: 0 5px;
+    position: relative;
+    z-index: 1;
+    padding: 10px 15px; /* Размер кнопки Play */
+  }
+  
+  .music-player-footer .play-btn::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Поднимаем кнопку Play вверх */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background-color: #28a745;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
