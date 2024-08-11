@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
 /* Запрет прокрутки контента под плеером */
 body.no-scroll {
   overflow: hidden;
@@ -51,7 +55,7 @@ img {
 /* Мэйн Player */
 .player {
   background: linear-gradient(90deg, rgba(56,32,94,1) 0%, rgba(186,12,183,1) 100%) !important;
-  padding-top: 10vh;
+  padding-top: 40px;
   position: fixed;
   top: 0;
   left: 0;
