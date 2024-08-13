@@ -7,8 +7,18 @@ body.no-scroll {
   overflow: hidden;
 }
 
+.radius {
+  border-radius: 14px !important;
+}
+
 .header {
-  background: linear-gradient(90deg, rgba(56,32,94,1) 0%, rgba(186,12,183,1) 100%) !important;
+  /* background: linear-gradient(90deg, rgba(56,32,94,1) 0%, rgba(186,12,183,1) 100%) !important; */
+  /* background: url("/img/header-background.png") no-repeat contain; */
+  background-image: url("../img/header-background.png");
+  background-repeat: no-repeat;
+  /* background-position: left -30px; */
+  background-size: cover;
+  padding-bottom: 110px;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -17,7 +27,7 @@ body.no-scroll {
 #search-input {
   position: absolute;
   top: -5px;
-  left: 40px;
+  left: 35px;
   width: 280px; /* Ширина инпута */
   height: 40px; /* Высота инпута */
   display: none; /* Скрыть инпут по умолчанию */
@@ -44,12 +54,16 @@ img {
   height: 110px;
 }
 
-.h-124 {
-  height: 160px;
+.h-200 {
+  height: 200px;
 }
 
 .h-70 {
   height: 70px;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
 
 /* Мэйн Player */
@@ -70,6 +84,7 @@ img {
 
 .player.visible {
   display: flex;
+  flex-direction: column;
   opacity: 1;
   transition: opacity 0.3s ease; /* Плавное появление */
 }
@@ -92,7 +107,7 @@ img {
 
 
 .main-margin {
-  /* margin-top: -35px; */
+  margin-top: -100px;
   position: relative;
 }
 
@@ -185,7 +200,7 @@ img {
     width: 120px; /* Ширина изображения на 1/3 ширины экрана */
     height: 120px !important;
     margin-right: 10px; /* Расстояние между изображениями */
-    border-radius: 8px; /* Скругление углов изображения */
+    border-radius: 14px; /* Скругление углов изображения */
   }
   
   /* Убираем последний правый отступ у последнего изображения */
@@ -234,15 +249,10 @@ img {
   border-radius: 5px; /* Округление углов */
 }
 
-.play-btn {
-  background-color: #28a745; /* Цвет кнопки Play */
-  border: none;
-  width: 60px; /* Размер кнопки Play */
-  height: 60px;
-  margin: 0 15px;
-  border-radius: 50%; /* Круглая кнопка */
-  position: relative;
-  top: -15px; /* Выступает за верхнюю границу футера */
-  z-index: 1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для кнопки Play */
+.footer-btn {
+  width: 90px;
+  height: 90px;
+  top: -20px;
+  right: 30px;
+  background-color: #dfd1f5 !important;
 }
